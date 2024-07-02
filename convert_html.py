@@ -16,7 +16,7 @@ def build_file(name):
 	md = "---"
 	md += "\ntitle: " + soup.find("h1").get_text().strip()
 	md += "\ndate: " +  soup.find("time").get_text().replace("-", "/")
-	md += "\ntags: " + soup.find("a", "tag-link").get_text()
+	# md += "\ntags: " + soup.find("a", "tag-link").get_text()
 	md += "\n---\n"
 
 	content = soup.find(itemprop="articleBody")

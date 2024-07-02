@@ -1,7 +1,7 @@
 {
-	"static_folder": "jtloong.github.io",
-	"post_folders" : [
-		"2017",
-		"2018"
-	]
+	"static_folder": "../flipped/2023/02/14",
+	"post_parent_folders" : [
+		"一些想法"
+	],
+	"hexo_project_folder": "../flipped"
 }
